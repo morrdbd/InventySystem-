@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainDashBord.master.cs" Inherits="Municipality_MIS.MasterPage.MainDashBord" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MIS</title>
+    <link rel="shortcut icon" href="../Content/MIS-Them/dist/img/ico/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="../Content/MIS-Them/dist/img/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="../Content/MIS-Them/dist/img/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="../Content/MIS-Them/dist/img/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="../Content/MIS-Them/dist/img/ico/apple-touch-icon-144-precomposed.png">
+    <link href="../Content/MIS-Them/dist/css/base.css" rel="stylesheet" type="text/css" />
+    <link href="../Content/MIS-Them/dist/css/component_ui.min.css" rel="stylesheet" type="text/css" />
+    <link href="../Content/MIS-Them/dist/css/component_ui_rtl.css" rel="stylesheet" type="text/css" />
+    <link href="../Content/MIS-Them/dist/css/custom.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery-1.11.1.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <link href="../Content/MIS-Them/plugins/toastr/toastr.min.css" rel="stylesheet" />
+    <script src="../Content/MIS-Them/plugins/toastr/toastr.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="wrapper animsition">
+            <header class="main-header">
+                <!-- top navigation -->
+                <nav class="navbar top-nav">
+                    <div class="container">
+                        <div class="navbar-header hidden-xs">
+                            <a class="navbar-brand" href="../MainDashBoard.aspx">
+                                <img src="../Content/MIS-Them/dist/img/logo.png" alt=""></a>
+                        </div>
+                        <ul class="nav navbar-top-links navbar-right">
+                            <li class="dropdown">
+                                <asp:LoginStatus ID="LoginStatus2" runat="server" />
+                            </li>
+                             <li class="dropdown">
+                               <span>|</span>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <i class="ti-user"></i>
+                                    <asp:Label ID="lblUserName" runat="server" Text=""></asp:Label>
+
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="clearfix"></div>
+            </header>
+            <div class="content-wrapper">
+                <div class="container">
+                    <!-- main content -->
+                    <div class="content">
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <!-- /.main content -->
+                </div>
+                <!-- /.container -->
+            </div>
+            <footer class="main-footer">
+                <div class="container">
+                    <div class="pull-left hidden-xs"><b>Version</b> 1.0</div>
+<%--                    <strong>Municipality MIS Copyright &copy; 2016-2017 <a href="#">ACTS</a>.</strong> All rights reserved. <i class="fa fa-heart color-green"></i>--%>
+                      <strong>Copyright &copy; 2016-2017 <a href="#">ACTS</a>.</strong> All rights reserved. <i class="fa fa-heart color-green"></i>
+                </div>
+            </footer>
+        </div>
+        <script src="../Content/MIS-Them/plugins/jQuery/jquery-1.12.4.min.js" type="text/javascript"></script>
+        <script src="../Content/MIS-Them/plugins/jquery-ui-1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="../Content/MIS-Them/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../Content/MIS-Them/plugins/lobipanel/lobipanel.min.js" type="text/javascript"></script>
+        <script src="../Content/MIS-Them/plugins/animsition/js/animsition.min.js" type="text/javascript"></script>
+        <script src="../Content/MIS-Them/plugins/bootsnav/js/bootsnav.js" type="text/javascript"></script>
+        <script src="../Content/MIS-Them/plugins/slimScroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+        <script src="../Content/MIS-Them/plugins/fastclick/fastclick.min.js" type="text/javascript"></script>
+        <script src="../Content/MIS-Them/dist/js/dashboard.js" type="text/javascript"></script>
+
+
+    </form>
+</body>
+</html>

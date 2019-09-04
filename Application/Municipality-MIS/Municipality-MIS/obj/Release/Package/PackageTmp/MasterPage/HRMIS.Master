@@ -1,0 +1,139 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HRMIS.master.cs" Inherits="Municipality_MIS.MasterPage.HRMIS" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MIS</title>
+    <link rel="shortcut icon" href="../Content/MIS-Them/dist/img/ico/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="../Content/MIS-Them/dist/img/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="../Content/MIS-Them/dist/img/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="../Content/MIS-Them/dist/img/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="../Content/MIS-Them/dist/img/ico/apple-touch-icon-144-precomposed.png">
+    <link href="../Content/MIS-Them/dist/css/base.css" rel="stylesheet" type="text/css" />
+    <link href="../Content/MIS-Them/dist/css/component_ui.min.css" rel="stylesheet" type="text/css" />
+    <link href="../Content/MIS-Them/dist/css/component_ui_rtl.css" rel="stylesheet" type="text/css" />
+    <link href="../Content/MIS-Them/dist/css/custom.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery-1.10.2.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager EnablePageMethods="true" runat="server">
+            <Scripts>
+                <asp:ScriptReference Path="~/Content/MIS-Them/plugins/jQuery/jquery-1.12.4.min.js" />
+                
+                <asp:ScriptReference Path="~/Content/MIS-Them/bootstrap/js/bootstrap.min.js" />
+                <asp:ScriptReference Path="~/Content/MIS-Them/plugins/lobipanel/lobipanel.min.js" />
+                <asp:ScriptReference Path="~/Content/MIS-Them/plugins/animsition/js/animsition.min.js" />
+                <asp:ScriptReference Path="~/Content/MIS-Them/plugins/bootsnav/js/bootsnav.js" />
+                <asp:ScriptReference Path="~/Content/MIS-Them/plugins/slimScroll/jquery.slimscroll.min.js" />
+                <asp:ScriptReference Path="~/Content/MIS-Them/plugins/fastclick/fastclick.min.js" />
+                <asp:ScriptReference Path="~/Content/MIS-Them/dist/js/dashboard.js" />
+                <asp:ScriptReference Path="~/Scripts/treeview/bootstrap-treeview.js" />
+                <asp:ScriptReference Path="~/Content/MIS-Them/plugins/jquery-ui-1.12.1/jquery-ui.min.js" />
+                <asp:ScriptReference Path="~/Scripts/bootstrap-datepicker.js"/>
+                 <asp:ScriptReference Path="~/Scripts/bootstrap-datepicker.fa.min.js"/>
+                 <asp:ScriptReference Path="~/Scripts/treeview/BootstrapMenu.min.js"/>
+            </Scripts>
+        </asp:ScriptManager>
+        <div class="wrapper animsition">
+            <header class="main-header">
+                <!-- top navigation -->
+                <nav class="navbar top-nav">
+                    <div class="container">
+                        <div class="navbar-header hidden-xs">
+                            <a class="navbar-brand" href="../MainDashBoard.aspx">
+                                <img src="../Content/MIS-Them/dist/img/logo.png" alt=""></a>
+                        </div>
+                        <ul class="nav navbar-top-links navbar-right">
+                            <li class="dropdown">
+                                <asp:LoginStatus ID="LoginStatus2" runat="server" />
+                            </li>
+                             <li class="dropdown">
+                               <span>|</span>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <i class="ti-user"></i>
+                                   <asp:Label ID="lblUserName" runat="server" Text=""></asp:Label>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- /. top navigation -->
+                <!--  main navigation -->
+                <nav class="navbar navbar-default navbar-mobile navbar-sticky bootsnav">
+                    <!-- Start Top Search -->
+                    <div class="top-search">
+                        <div class="container">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="ti-search"></i></span>
+                                <input type="text" class="form-control" placeholder="Search">
+                                <span class="input-group-addon close-search"><i class="ti-close"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Top Search -->
+                    <div class="container">
+                        <!-- Start Header Navigation -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <a class="navbar-brand hidden-md hidden-lg" href="../MainDashBoard.aspx">
+                                <img src="../Content/MIS-Them/dist/img/logo2.png" class="logo" alt=""></a>
+                        </div>
+                        <!-- End Header Navigation -->
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="navbar-menu">
+                            <ul class="nav navbar-nav navbar-right" data-in="" data-out="">
+                                <li><a href="../MainDashBoard.aspx"><i class="ti-home"></i>اصلی پاڼه</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="ti-settings"></i>د تنظیماتو پاڼه</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../HRMIS-Pages/frmDepartmentTree.aspx"><i class="ti-clipboard"></i>دیپارمنټ/بخش</a></li>
+                                        <li><a href="#"><i class="ti-clipboard"></i>د وظیفی لیست/لیست وظایف</a></li>
+                                        <li><a href="#"><i class="ti-clipboard"></i>د ولایت لیست/لیست ولایت</a></li>
+                                        <li><a href="../HRMIS-Pages/frmEmployeeInformation.aspx"><i class="ti-clipboard"></i>د کارمند د ثبت فورمه/فورمه ثبت کارمند</a></li>
+                                             <li><a href="../HRMIS-Pages/frmEmployeeAtDepartment.aspx"><i class="ti-clipboard"></i>کارمند په بخش کی/کارمند در بخش</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown active">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="ti-pencil-alt"></i>راپورونه/راپورها</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="active"><a href="../HRMIS-Pages/frmEmployeeView.aspx"><i class="ti-clipboard"></i>د کارمندانو لیست</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                </nav>
+                <!-- /. main navigation -->
+                <div class="clearfix"></div>
+            </header>
+            <div class="content-wrapper">
+                <div class="container">
+                    <!-- main content -->
+                    <div class="content">
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <!-- /.main content -->
+                </div>
+                <!-- /.container -->
+            </div>
+            <footer class="main-footer">
+                <div class="container">
+                    <div class="pull-left hidden-xs"><b>Version</b> 1.0</div>
+                    <strong>Municipality MIS Copyright &copy; 2016-2018 <a href="#">ACTS</a>.</strong> All rights reserved<i class="fa fa-heart color-green"></i>
+                </div>
+            </footer>
+        </div>
+
+    </form>
+</body>
+</html>

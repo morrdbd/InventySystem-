@@ -1,0 +1,9 @@
+D:\Projects\Loghman-Municipality System\Municipality-System\DLLs\HRMIS_Lib\bin\Debug\HRMIS_Lib.dll
+D:\Projects\Loghman-Municipality System\Municipality-System\DLLs\HRMIS_Lib\bin\Debug\HRMIS_Lib.pdb
+D:\Projects\Loghman-Municipality System\Municipality-System\DLLs\HRMIS_Lib\obj\Debug\HRMIS_Lib.dll
+D:\Projects\Loghman-Municipality System\Municipality-System\DLLs\HRMIS_Lib\obj\Debug\HRMIS_Lib.pdb
+D:\Projects\Loghman-Municipality System\Municipality-System\DLLs\HRMIS_Lib\obj\Debug\HRMIS_Lib.csprojResolveAssemblyReference.cache
+E:\Projects\Loghman-Municipality System\Municipality-System\DLLs\HRMIS_Lib\bin\Debug\HRMIS_Lib.dll
+E:\Projects\Loghman-Municipality System\Municipality-System\DLLs\HRMIS_Lib\bin\Debug\HRMIS_Lib.pdb
+E:\Projects\Loghman-Municipality System\Municipality-System\DLLs\HRMIS_Lib\obj\Debug\HRMIS_Lib.dll
+E:\Projects\Loghman-Municipality System\Municipality-System\DLLs\HRMIS_Lib\obj\Debug\HRMIS_Lib.pdb

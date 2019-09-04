@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Municipality-MIS", "Municipality-MIS\Municipality-MIS.csproj", "{86DDC677-436B-4A58-93B5-F14B81B73F2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory_Manager_Lib", "..\..\DLLs\Inventory_Manager_Lib\Inventory_Manager_Lib.csproj", "{385B5566-6B79-406C-8706-FE60D87E017D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMIS_Lib", "..\..\DLLs\HRMIS_Lib\HRMIS_Lib.csproj", "{B84EA288-FDBC-47D8-86AB-FA03A89D6D2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86DDC677-436B-4A58-93B5-F14B81B73F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86DDC677-436B-4A58-93B5-F14B81B73F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86DDC677-436B-4A58-93B5-F14B81B73F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86DDC677-436B-4A58-93B5-F14B81B73F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{385B5566-6B79-406C-8706-FE60D87E017D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385B5566-6B79-406C-8706-FE60D87E017D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385B5566-6B79-406C-8706-FE60D87E017D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385B5566-6B79-406C-8706-FE60D87E017D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B84EA288-FDBC-47D8-86AB-FA03A89D6D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B84EA288-FDBC-47D8-86AB-FA03A89D6D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B84EA288-FDBC-47D8-86AB-FA03A89D6D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B84EA288-FDBC-47D8-86AB-FA03A89D6D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

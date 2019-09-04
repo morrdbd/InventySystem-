@@ -1,0 +1,143 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Inventory.master.cs" Inherits="Municipality_MIS.MasterPage.Inventory" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MIS</title>
+    <link rel="shortcut icon" href="../Content/MIS-Them/dist/img/ico/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="../Content/MIS-Them/dist/img/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="../Content/MIS-Them/dist/img/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="../Content/MIS-Them/dist/img/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="../Content/MIS-Them/dist/img/ico/apple-touch-icon-144-precomposed.png">
+    <link href="../Content/MIS-Them/dist/css/base.css" rel="stylesheet" type="text/css" />
+    <link href="../Content/MIS-Them/dist/css/component_ui.min.css" rel="stylesheet" type="text/css" />
+    <link href="../Content/MIS-Them/dist/css/component_ui_rtl.css" rel="stylesheet" type="text/css" />
+    <link href="../Content/MIS-Them/dist/css/custom.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" EnablePageMethods="true" runat="server">
+            <Scripts>
+                <asp:ScriptReference Path="~/Content/MIS-Them/plugins/jQuery/jquery-1.12.4.min.js" />
+                <asp:ScriptReference Path="~/Content/MIS-Them/bootstrap/js/bootstrap.min.js" />
+                <asp:ScriptReference Path="~/Content/MIS-Them/plugins/lobipanel/lobipanel.min.js" />
+                <asp:ScriptReference Path="~/Content/MIS-Them/plugins/animsition/js/animsition.min.js" />
+                <asp:ScriptReference Path="~/Content/MIS-Them/plugins/bootsnav/js/bootsnav.js" />
+                <asp:ScriptReference Path="~/Content/MIS-Them/plugins/slimScroll/jquery.slimscroll.min.js" />
+                <asp:ScriptReference Path="~/Content/MIS-Them/plugins/fastclick/fastclick.min.js" />
+                <asp:ScriptReference Path="~/Content/MIS-Them/dist/js/dashboard.js" />
+                <asp:ScriptReference Path="~/Scripts/treeview/bootstrap-treeview.js" />
+                <asp:ScriptReference Path="~/Content/MIS-Them/plugins/jquery-ui-1.12.1/jquery-ui.min.js" />
+                <asp:ScriptReference Path="~/Scripts/bootstrap-datepicker.js"/>
+                <asp:ScriptReference Path="~/Scripts/bootstrap-datepicker.fa.min.js"/>
+                <asp:ScriptReference Path="~/Scripts/treeview/BootstrapMenu.min.js"/>
+                <asp:ScriptReference Path="~/Scripts/select2.js"/>
+                <asp:ScriptReference Path="~/Scripts/toastr.min.js"/>
+            </Scripts>
+        </asp:ScriptManager>
+        <div class="wrapper animsition">
+            <header class="main-header">
+                <!-- top navigation -->
+         <nav class="navbar top-nav">
+                    <div class="container">
+                        <div class="navbar-header hidden-xs">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="../Content/MIS-Them/dist/img/logo.png" alt=""></a>
+                        </div>
+                        <ul class="nav navbar-top-links navbar-right">
+                            <li class="dropdown">
+                                <asp:LoginStatus ID="LoginStatus2" runat="server" />
+                            </li>
+                             <li class="dropdown">
+                               <span>|</span>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <i class="ti-user"></i>
+                                  <asp:Label ID="lblUserName" runat="server" Text=""></asp:Label>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- /. top navigation -->
+                <!--  main navigation -->
+                <nav class="navbar navbar-default navbar-mobile navbar-sticky bootsnav">
+                
+                    <div class="container">
+                        <!-- Start Header Navigation -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <a class="navbar-brand hidden-md hidden-lg" href="../MainDashBoard.aspx">
+                                <img src="../Content/MIS-Them/dist/img/logo2.png" class="logo" alt=""></a>
+                        </div>
+                        <!-- End Header Navigation -->
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="navbar-menu">
+                            <ul class="nav navbar-nav navbar-right" data-in="" data-out="">
+                                <li><a href="../MainDashBoard.aspx"><i class="ti-home"></i>اصلی پاڼه</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="ti-settings"></i>د تنظیماتو پاڼه</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../Inventory-Pages/frmProduct.aspx"><i class="ti-clipboard"></i>د توکو ثبتول</a></li>
+                                        <li><a href="../Inventory-Pages/frmProductList.aspx"><i class="ti-clipboard"></i>د توکو لیست</a></li>
+                                        <li><a href="#"><i class="ti-clipboard"></i>د توکو د کارېدنه نوعه</a></li>
+                                        <li><a href="../Inventory-Pages/frmProductSize.aspx"><i class="ti-clipboard"></i>د توکي اندازه</a></li>
+                                        <li><a href="../Inventory-Pages/frmProductColor.aspx"><i class="ti-clipboard"></i>د توکي رنګ</a></li>
+                                        <li><a href="../Inventory-Pages/frmProductUnitOfMeasurement.aspx"><i class="ti-clipboard"></i>د توکی د متحد ډول</a></li>
+                                        <li><a href="../Inventory-Pages/frmProductPaking.aspx"><i class="ti-clipboard"></i>د توکي بسته بندي</a></li>
+                                        <li><a href="../Inventory-Pages/frmProductGroup.aspx"><i class="ti-clipboard"></i>د توکي ګروپ</a></li>
+                                        <li><a href="../Inventory-Pages/frmProductCategory.aspx"><i class="ti-clipboard"></i>د توکي کټګورۍ</a></li>
+                                        <li><a href="../Inventory-Pages/frmProductOrigin.aspx"><i class="ti-clipboard"></i>د توکي اصلي</a></li>
+                                        <li><a href="../Inventory-Pages/frmProductBrand.aspx"><i class="ti-clipboard"></i>د توکي سوداګریز</a></li>
+                                    </ul>
+                                </li>
+                                  <li class="dropdown active">
+                                    <a href="../Inventory-Pages/frmPurchase.aspx"  ><i class="ti-shopping-cart"></i>خریداری  Purchase </a>
+                                   
+                                </li>
+                                  <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="ti-pencil-alt"></i>توکی او کارمند</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../Inventory-Pages/frmAssignedItemsToAnEmployee.aspx"><i class="ti-clipboard"></i>توکی ورکول</a></li>
+                                      <li><a href="../Inventory-Pages/frmAssetsListOfEmployee.aspx"><i class="ti-clipboard"></i>ورکړل شوی توکي راګرزول</a></li>
+                                        </ul>
+                                      </li>
+                               <li class="dropdown active">
+                                    <a href="../Inventory-Pages/frmStock.aspx"  ><i class="ti-layout"></i>زیرمی  Stock </a>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+
+                </nav>
+                <!-- /. main navigation -->
+                <div class="clearfix"></div>
+            </header>
+            <div class="content-wrapper">
+                <div class="container">
+                    <!-- main content -->
+                    <div class="content">
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <!-- /.main content -->
+                </div>
+                <!-- /.container -->
+            </div>
+            <footer class="main-footer">
+                <div class="container">
+                    <div class="pull-left hidden-xs"><b>Version</b> 1.0</div>
+                    <strong>Municipality MIS Copyright &copy; 2016-2018 <a href="#">ACTS</a>.</strong> All rights reserved <i class="fa fa-heart color-green"></i>
+                </div>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,38 @@
+D:\DLSC System\Inventory_Manager_Lib\bin\Debug\Inventory_Manager_Lib.dll
+D:\DLSC System\Inventory_Manager_Lib\bin\Debug\Inventory_Manager_Lib.pdb
+D:\DLSC System\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.dll
+D:\DLSC System\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.pdb
+D:\Projects\DLSC-Inventory System\Inventory_Manager_Lib\bin\Debug\Inventory_Manager_Lib.dll
+D:\Projects\DLSC-Inventory System\Inventory_Manager_Lib\bin\Debug\Inventory_Manager_Lib.pdb
+D:\Projects\DLSC-Inventory System\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.dll
+D:\Projects\DLSC-Inventory System\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.pdb
+D:\Projects\DLSC-Inventory System\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.csprojResolveAssemblyReference.cache
+E:\My-Data\Projects\DLSC-Inventory System\Inventory_Manager_Lib\bin\Debug\Inventory_Manager_Lib.dll
+E:\My-Data\Projects\DLSC-Inventory System\Inventory_Manager_Lib\bin\Debug\Inventory_Manager_Lib.pdb
+E:\My-Data\Projects\DLSC-Inventory System\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.csprojResolveAssemblyReference.cache
+E:\My-Data\Projects\DLSC-Inventory System\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.dll
+E:\My-Data\Projects\DLSC-Inventory System\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.pdb
+E:\My-Data\Projects\Al-Dhuha-MIS\DLLs\Inventory_Manager_Lib\bin\Debug\Inventory_Manager_Lib.dll
+E:\My-Data\Projects\Al-Dhuha-MIS\DLLs\Inventory_Manager_Lib\bin\Debug\Inventory_Manager_Lib.pdb
+E:\My-Data\Projects\Al-Dhuha-MIS\DLLs\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.dll
+E:\My-Data\Projects\Al-Dhuha-MIS\DLLs\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.pdb
+D:\Projects\Al-Dhuha-MIS\DLLs\Inventory_Manager_Lib\bin\Debug\Inventory_Manager_Lib.dll
+D:\Projects\Al-Dhuha-MIS\DLLs\Inventory_Manager_Lib\bin\Debug\Inventory_Manager_Lib.pdb
+D:\Projects\Al-Dhuha-MIS\DLLs\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.dll
+D:\Projects\Al-Dhuha-MIS\DLLs\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.pdb
+D:\Projects\Inventory Manager-Al-Khair Center\DLLs\Inventory_Manager_Lib\bin\Debug\Inventory_Manager_Lib.dll
+D:\Projects\Inventory Manager-Al-Khair Center\DLLs\Inventory_Manager_Lib\bin\Debug\Inventory_Manager_Lib.pdb
+D:\Projects\Inventory Manager-Al-Khair Center\DLLs\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.dll
+D:\Projects\Inventory Manager-Al-Khair Center\DLLs\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.pdb
+D:\Projects\Loghman-Municipality System\Municipality-System\DLLs\Inventory_Manager_Lib\bin\Debug\Inventory_Manager_Lib.dll
+D:\Projects\Loghman-Municipality System\Municipality-System\DLLs\Inventory_Manager_Lib\bin\Debug\Inventory_Manager_Lib.pdb
+D:\Projects\Loghman-Municipality System\Municipality-System\DLLs\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.dll
+D:\Projects\Loghman-Municipality System\Municipality-System\DLLs\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.pdb
+D:\Projects\Loghman-Municipality System\Municipality-System\DLLs\Inventory_Manager_Lib\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Loghman-Municipality System\Municipality-System\DLLs\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.csprojResolveAssemblyReference.cache
+E:\Projects\Loghman-Municipality System\Municipality-System\DLLs\Inventory_Manager_Lib\bin\Debug\Inventory_Manager_Lib.dll
+E:\Projects\Loghman-Municipality System\Municipality-System\DLLs\Inventory_Manager_Lib\bin\Debug\Inventory_Manager_Lib.pdb
+E:\Projects\Loghman-Municipality System\Municipality-System\DLLs\Inventory_Manager_Lib\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\Loghman-Municipality System\Municipality-System\DLLs\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.csprojResolveAssemblyReference.cache
+E:\Projects\Loghman-Municipality System\Municipality-System\DLLs\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.dll
+E:\Projects\Loghman-Municipality System\Municipality-System\DLLs\Inventory_Manager_Lib\obj\Debug\Inventory_Manager_Lib.pdb
